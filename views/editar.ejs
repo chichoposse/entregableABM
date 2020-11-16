@@ -8,8 +8,6 @@
 <body>
     <h1>Editar producto</h1>
     <form action="/products/editar/<%= productFound.id %>" method="POST">
-        <input type="text" name="id" value="<%= productFound.id %>">
-        <br>
         <input type="text" name="nombre" value="<%= productFound.nombre %>">
         <br>
         <input type="text" name="precio" value="<%= productFound.precio %>">
